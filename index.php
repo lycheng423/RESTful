@@ -1,8 +1,4 @@
 <?php
-//获取数据类
-require('Request.php');
-//返回结果类
-require('Response.php');
 /*
  * 发送：
  * GET  http://localhost/restful/class  列出所有班级
@@ -12,8 +8,11 @@ require('Response.php');
  * PATCH  http://localhost/restful/class/1?name=SAT班    更新指定班的信息（部分信息）
  * DELETE  http://localhost/restful/class/1 删除指定班
  *
- *
 */
+//获取数据类
+require('Request.php');
+//返回结果类
+require('Response.php');
 //获取数据
 $data = Request::getRequest();
 //输出结果
