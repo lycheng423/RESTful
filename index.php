@@ -7,7 +7,6 @@
  * PUT  http://localhost/restful/class/1?name=SAT班&count=23  更新指定班的信息（全部信息）
  * PATCH  http://localhost/restful/class/1?name=SAT班    更新指定班的信息（部分信息）
  * DELETE  http://localhost/restful/class/1 删除指定班
- *
 */
 //获取数据类
 require('Request.php');

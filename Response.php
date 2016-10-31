@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 返回结果
+ * 输出类
  */
 class Response
 {
