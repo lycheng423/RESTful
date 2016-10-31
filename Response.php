@@ -8,10 +8,9 @@ class Response
     const HTTP_VERSION = "HTTP/1.1";
 
     //返回结果
-    public static function sendResponse()
+    public static function sendResponse($data)
     {
         //获取数据
-        $data = Request::getRequest();
         if ($data) {
             $code = 200;
             $message = 'OK';
